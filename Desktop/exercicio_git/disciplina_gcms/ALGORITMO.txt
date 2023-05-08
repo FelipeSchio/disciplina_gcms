@@ -1,0 +1,11 @@
+Erlon Gabriel Bernardoni e estou aprendendo sobre o GitHub
+
+import datetime
+import time
+
+limite = datetime.datetime(2023, 7, 7)
+while datetime.datetime.now() < limite:
+    segundos = int((limite - datetime.datetime.now()).total_seconds())
+    print("Faltam", segundos, "segundos para acabar o curso")
+    time.sleep(1)
+print("ACABOUU!!")
